@@ -1,14 +1,17 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  color: #FFF;
+  background-color: #c8102e;
   font-size: var(--body-font-size-s);
 }
 
 footer .footer {
   max-width: 1200px;
   margin: auto;
+  text-align: left;
 }
 
 footer .footer p {
   margin: 0;
+  text-align: left;
 }
