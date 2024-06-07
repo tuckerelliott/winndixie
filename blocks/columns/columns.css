@@ -11,7 +11,7 @@
   order: 1;
 }
 
-.columns > div > div:nth-child(2) {
+.columns.block.columns-2-cols > div > div:nth-child(2) {
   padding: 16px 0px 0px 16px;
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .12);
 }
@@ -29,6 +29,7 @@
     align-items: top;
     flex-direction: unset;
     gap: 32px;
+    padding-top: 32px;
   }
 
   .columns > div > div {
